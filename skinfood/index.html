@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKINFOOD</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/slide.js"></script>
+    <script src="./script/modal.js"></script>
+</head>
+<body>
+    
+    <header id="header">
+        <div id="header_top">
+            <a href="./index.html">
+                <img src="./images/logo.png" alt="스킨푸드로고">
+            </a>
+            <div id="user_btn">
+                <ul id="user_top">
+                    <li><a href="./subpage.html">로그인</a></li>
+                    <li><a href="./subpage.html">회원가입</a></li>
+                    <li><a href="./subpage.html">마이페이지</a></li>
+                    <li><a href="./subpage.html">멤버십</a></li>
+                </ul>
+                <ul id="user_bottom">
+                    <li><button id="search"></button></li>
+                    <li><button id="basket"></button></li>
+                </ul>
+            </div>
+            <nav id="nav">
+                <span>MENU</span>
+            </nav>
+            <!-- //#nav -->
+        </div>
+        <!-- //#header_top -->
+    </header>
+    <!-- //#header -->
+    <aside id="side_nav">
+        <a href="./index.html">
+            <img src="./images/logo.png" alt="logo">
+        </a>
+        <ul id="side_wrap">
+            <li>
+                <a href="./subpage.html">ABOUT</a>
+            </li>
+            <li><a href="#이벤트">SHOP</a>
+                <ul class="sub">
+                    <li><a href="#베스트&신상품">베스트&신상품</a></li>
+                    <li><a href="#유형별">유형별</a></li>
+                    <li><a href="#고민별">고민별</a></li>
+                    <li><a href="#라인별">라인별</a></li>
+                    <li><a href="#타입별">타입별</a></li>
+                    <li><a href="#패키지">패키지</a></li>
+                    <li><a href="#비건">비건</a></li>
+                </ul>
+            </li>
+            <li><a href="#리뷰">REVIEW</a>
+                <ul class="sub">
+                    <li><a href="#리뷰">리뷰</a></li>
+                </ul>
+            </li>
+            <li><a href="#이벤트">EVENT</a>
+                <ul class="sub">
+                    <li><a href="#진행중 이벤트">진행중 이벤트</a></li>
+                    <li><a href="#종료 이벤트">종료 이벤트</a></li>
+                </ul>
+            </li>
+            <li><a href="#커뮤니티">COMMUNITY</a>
+                <ul class="sub">
+                    <li><a href="#멤버십">멤버십</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
+                    <li><a href="#공지사항">공지사항</a></li>
+                    <li><a href="#매장안내">매장안내</a></li>
+                    <li><a href="#1:1문의하기">1:1문의하기</a></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+    <!-- //#side_nav-->
+    <section id="main_slide">
+        <ul id="slides">
+            <li class="slide">
+                <div id="slide1" class="slide_con">
+                    <img src="./images/slide1.png" alt="슬라이드1">
+                    <div class="text_con">
+                        <h1>
+                            <strong>캐롯 카로틴</strong> 모이스트 이펙터
+                        </h1>
+                        <p>#당근 추출물 75% #당근앰플</p>
+                        <p>#마스크 자극진정</p>
+                    </div>
+                    <!-- //.text_con -->
+                    <div class="slide_btn">
+                        <button class="quick_btn">바로가기</button>
+                    </div>
+                   <!-- //.slide_btn-->
+                </div>
+                <!-- //#slide1 -->
+            </li>
+            <li class="slide">
+                <div id="slide2" class="slide_con">
+                    <img src="./images/slide2.png" alt="슬라이드2">
+                    <div class="text_con">
+                        <h1>
+                            <strong>트러블 케어 </strong>VS<strong> 수분케어</strong>
+                        </h1>
+                        <p>최대 UP TO 40%</p>
+                        <p>6/20~6/30</p>
+                    </div>
+                    <!-- //.text_con -->
+                    <div class="slide_btn">
+                        <button class="quick_btn">바로가기</button>
+                    </div>
+                   <!-- //.slide_btn-->
+                </div>
+                <!-- //#slide2 -->
+            </li>
+            <li class="slide">
+                <div id="slide3" class="slide_con">
+                    <img src="./images/slide3.png" alt="슬라이드3">
+                    <div class="text_con">
+                        <h1>
+                            블랙슈가 퍼펙트 에센셜 스크럽 <strong>2X</strong>
+                        </h1>
+                        <p>Black Sugar Perfect Essential Scrub 2X</p>
+                        <p>#매끈촉촉 #슈가스크럽 #촉촉각질케어</p>
+                    </div>
+                    <!-- //.text_con -->
+                    <div class="slide_btn">
+                        <button class="quick_btn">바로가기</button>
+                    </div>
+                   <!-- //.slide_btn-->
+                </div>
+                <!-- //#slide3 -->
+            </li>
+            <li class="slide">
+                <div id="slide4" class="slide_con">
+                    <img src="./images/slide4.png" alt="슬라이드4">
+                    <div class="text_con">
+                        <h1>
+                            <strong>로열허니 </strong>프로폴리스
+                        </h1>
+                        <p>Royal Honey Propolis</p>
+                        <p>#프로방스블랙비 #찐프로폴리스 #탄탄보습 #촘촘장벽</p>
+                    </div>
+                    <!-- //.text_con -->
+                    <div class="slide_btn">
+                        <button class="quick_btn">바로가기</button>
+                    </div>
+                   <!-- //.slide_btn-->
+                </div>
+                <!-- //#slide4 -->
+            </li>
+        </ul>
+        <div id="progress">
+            <div id="inner"></div>
+        </div>
+        <!-- //#progress -->
+    </section>
+    <!-- //#main_slide -->
+    <div id="container">
+        <div id="section_wrap">
+            <section id="section_line">
+                <h2>
+                    라인별 <strong>제품추천</strong>
+                </h2>
+                <div id="line_slide">
+                    <ul id="line_wrap">
+                        <li>
+                            <div class="line_left" id="line_left1">
+                                <img src="./images/line1.png" alt="line1">
+                            </div>
+                            <div class="line_right" id="line_right1">
+                                <img src="./images/line1-1.jpg" alt="line1">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="line_left" id="line_left2">
+                                <img src="./images/line2.png" alt="line2">
+                            </div>
+                            <div class="line_right" id="line_right2">
+                                <img src="./images/line2-1.jpg" alt="line2">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="line_left" id="line_left3">
+                                <img src="./images/line3.png" alt="line3">
+                            </div>
+                            <div class="line_right" id="line_right3">
+                                <img src="./images/line3-1.png" alt="line3">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="line_left" id="line_left4">
+                                <img src="./images/line4.png" alt="line4">
+                            </div>
+                            <div class="line_right" id="line_right4">
+                                <img src="./images/line4-1.png" alt="line4">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //#line_slide -->
+                <button id="line_pre" class="btn prev"></button>
+                <button id="line_next" class="btn next"></button>
+                <!-- <div>
+                    <ol id="bullets">
+                        <li class="bullets_list on"></li>
+                        <li class="bullets_list"></li>
+                        <li class="bullets_list"></li>
+                        <li class="bullets_list"></li>
+                    </ol>
+                </div> -->
+            </section>
+            <!-- //#section_line -->
+            <section id="section_best">
+                <h2>
+                    <strong>BEST</strong> 아이템
+                </h2>
+                <div id="best_wrap">
+                    <div id="img_box">
+                        <img src="./images/best.png" alt="best-img">
+                    </div>
+                    <div id="best_text">
+                        <h3>[당근패드]
+                            <p>캐롯 카로틴 카밍 워터 패드 (250g, 60매)</p>
+                        </h3>
+                        <p>#민감예민  #진정  #저자극  #비건  당근</p>
+                    </div>
+                    <div id="best_box">
+                        <p>BEST ITEM</p>
+                        <span class="view">
+                            <a href="./subpage.html">
+                                VIEW MORE
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <!-- //#best_wrap -->
+            </section>
+            <!-- //#section_best -->
+            <section id="section_new">
+                <h2>
+                    <strong>NEW</strong> 신상품
+                </h2>
+                <div id="new_wrap">
+                    <div id="new_left">
+                        <img src="./images/new-left.png" alt="new_item">
+                        <button id="modal_btn"></button>
+                    </div>
+                    <div id="new_right">
+                        <img src="./images/new-right.png" alt="new_item">
+                    </div>
+                    <span class="view">
+                        <a href="./subpage.html">
+                            VIEW MORE
+                        </a>
+                    </span>
+                </div>
+                <div id="modal">
+                    <div id="modal_wrap">
+                        <img src="./images/new-right.png" alt="new_item">
+                        <div id="modal_text">
+                            <h3>판토테닉 워터 파슬리 클리어 패드</h3>
+    
+                            <p>미나리로 매일 순하게 피지쓱싹, 피부말끔 #미나리말끔패드</p> 
+                            [피부자극테스트 완료]
+
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom_new">NEW</div>
+            </section>
+            <!-- //#section_new -->
+        </div>
+        <!-- //#section_wrap -->
+    </div>
+    <!-- //#container -->
+    <section id="section_insta">
+        <h2>
+            <img src="./images/insta.png" alt="">
+        </h2>
+        <div id="insta_wrap">
+            <ul id="insta_list">
+                <li>
+                    <ul class="insta_con">
+                        <li>
+                            <a href=""><img src="./images/insta1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta3.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta4.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta5.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta6.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta7.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta8.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta9.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta10.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta11.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta12.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta13.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta14.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta15.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="insta_con">
+                        <li>
+                            <a href=""><img src="./images/insta16.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta17.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta18.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta19.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta20.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta21.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/insta22.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="insta_pre" class="btn"></button>
+            <button id="insta_next" class="btn"></button>
+        </div>
+        <!-- //#insta_wrap -->
+    </section>
+    <!-- //#section_insta -->    
+    <footer id="footer">
+        <div id="ft_wrap">
+            <div id="ft_top">
+                <ul id="time">
+                    <li>고객센터</li>
+                    <li><span><strong>080-012-7878</strong></span></li>
+                    <li><span>평일 09:00 ~ 17:30</span><br>
+                        <span>점심시간 11:30 ~ 12:30</span>
+                    </li>
+                </ul>
+                <ul id="sns">
+                    <li><a href="#facebook">facebook</a></li>
+                    <li><a href="#instagram">instagram</a></li>
+                    <li><a href="#youtube">youtube</a></li>
+                </ul>
+            </div>
+            <!-- //#ft_top -->
+            <ul id="ft_list">
+                <li><a href="#공지사항">공지사항</a></li>
+                <li><a href="#이용약관">이용약관</a></li>
+                <li><a href="#개인정보처리방침">개인정보처리방침</a></li>
+                <li><a href="#영상정보처리방침">영상정보처리방침</a></li>
+                <li><a href="#매장안내">매장안내</a></li>
+                <li><a href="#고객센터">고객센터</a></li>
+            </ul>
+            <ul id="addr">
+                <li>상호 (주)스킨푸드</li>
+                <li>Tel 080-012-7878</li>
+                <li>Fax 02-597-4199</li>
+                <li>주소  경기도 안성시 미양면 제2공단1길 104 스킨푸드</li>
+                <li>사업자등록번호 125-81-54503</li>
+                <li>통신사업자번호 제2005-00050호</li>
+                <li>개인정보 보호 책임자 옥봉근</li>
+            </ul>
+            <ul id="contact">
+                <li>제휴문의 webmaster@theskinfood.com</li>
+                <li>마케팅제휴문의 : sf_mkt@theskinfood.com</li>
+                <li>국내영업 문의 hjimp@theskinfood.com</li>
+                <li>해외영업 문의 overseas@theskinfood.com</li>
+            </ul>
+        </div>
+        <!-- //#ft_wrap -->
+    </footer>
+    <!-- //footer -->
+    <button id="top">
+        TOP
+    </button>
+</body>
+</html>
